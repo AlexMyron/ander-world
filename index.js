@@ -5,7 +5,6 @@ btnBlue.addEventListener('click', addDivideNumbers);
 
 function isInvalid(arg) {
   const parsedArg = Number(arg);
-  // if (arg === '' || arg.trim() === '') return true;
   return (
     typeof parsedArg !== 'number' ||
     isNaN(parsedArg) ||
